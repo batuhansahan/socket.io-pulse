@@ -1,0 +1,33 @@
+{
+  "name": "socket.io-pulse",
+  "version": "1.0.0",
+  "description": "Setting variables to room and getting,removing from room, also list of rooms and check if room exist functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/pulse.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batuhansahan/socket.io-pulse.git"
+  },
+  "keywords": [
+    "socket.io",
+    "room"
+  ],
+  "author": {
+    "name": "Batuhan Şahan",
+    "email": "imbatuhansahan@gmail.com",
+    "url": "https://batuhansahan.github.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/batuhansahan/socket.io-pulse/issues"
+  },
+  "homepage": "https://github.com/batuhansahan/socket.io-pulse#readme",
+  "devDependencies": {
+    "tape": "^4.13.2"
+  },
+  "dependencies": {
+    "underscore": "^1.10.2"
+  }
+}
