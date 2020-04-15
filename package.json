@@ -1,10 +1,13 @@
 {
   "name": "socket.io-pulse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Setting variables to room and getting,removing from room, also list of rooms and check if room exist functionality.",
   "main": "index.js",
   "scripts": {
     "test": "node test/pulse.test.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
