@@ -6,7 +6,7 @@ function Pulse(adapter) {
 Pulse.prototype.setItem = function (roomID, key, val, callback) {
   this.adapter.items[roomID] = this.adapter.items[roomID] || {};
   this.adapter.items[roomID][key] = val;
-  callback(this.adapter.rooms_props[roomID])
+  callback(this.adapter.items[roomID]);
 };
 
 Pulse.prototype.getItem = function (roomID, key, callback) {
