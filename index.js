@@ -1,3 +1,3 @@
-let Pulse = require('./src/socket-Pulse');
+const Pulse = require('./src/socket-pulse');
 
 module.exports = Pulse;

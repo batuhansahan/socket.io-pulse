@@ -1,6 +1,6 @@
 {
   "name": "socket.io-pulse",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Setting variables to room and getting,removing from room, also list of rooms and check if room exist functionality.",
   "main": "index.js",
   "scripts": {
